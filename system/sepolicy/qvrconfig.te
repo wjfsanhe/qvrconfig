@@ -1,0 +1,5 @@
+type qvrconfig, domain, domain_deprecated;
+type qvrconfig_exec, exec_type, file_type;
+
+
+allow init qvrconfig:process { transition dyntransition };

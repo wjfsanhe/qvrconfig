@@ -1,0 +1,2 @@
+allow qvrconfig qvrd_data_file:dir search;
+allow qvrconfig qvrd_data_file:file { open getattr write read append };
